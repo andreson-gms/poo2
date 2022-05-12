@@ -12,7 +12,7 @@
 
 ## AMBIENTE DOCKER PARA BANCO DE DADOS
 
-    docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+    docker run --name postgres -e POSTGRES_PASSWORD=password -d -p 5433:5432 postgres
 
 ## ACESSAR BASH DO CONTAINER
 
